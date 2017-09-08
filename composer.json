@@ -1,0 +1,15 @@
+{
+    "name": "edgar/edgarsaavedra-php-explore",
+    "description": "An example repo to explore all things php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Edgar Saavedra",
+            "email": "edgarsaavedraa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"EdgarSaavedra\\": "src"}
+    },
+    "require": {}
+}
