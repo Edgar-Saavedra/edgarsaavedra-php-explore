@@ -11,3 +11,14 @@ All things php
   - To update a package : ` $ composer update `
   - To install deps : ` $ composer install `
 
+---
+
+## Command line php
+  - To run php internal server : `php -S localhost:8080`
+
+---
+
+## Working Networking
+
+  - To send data to an app use curl `curl -d hi=hello localhost:8080`
+  - see : (curl  docs)[https://curl.haxx.se/docs/manpage.html]

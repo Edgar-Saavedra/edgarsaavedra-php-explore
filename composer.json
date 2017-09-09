@@ -11,5 +11,7 @@
     "autoload": {
         "psr-4": {"EdgarSaavedra\\": "src"}
     },
-    "require": {}
+    "require": {
+        "kint-php/kint": "^2.2"
+    }
 }
