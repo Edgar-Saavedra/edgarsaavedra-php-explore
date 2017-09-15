@@ -3,14 +3,16 @@
 require('./vendor/autoload.php');
 use \EdgarSaavedra\Basics;
 use \EdgarSaavedra\Network;
+use \EdgarSaavedra\SQL;
 
 //$Example = new \EdgarSaavedra\OOP\Example('my name!!!!!1');
 //Kint::dump($Example->getName());
 //Kint::dump(Basics\LanguageBasics::literals());
 //Basics\LanguageBasics::constants();
-Basics\LanguageBasics::arrays();
+//Basics\LanguageBasics::arrays();
 //Kint::dump(Network\WorkingWithPredifined::getGlobals());
 //echo json_encode(Network\WorkingWithPredifined::getGlobals());
+$db_example = new SQL\SQLBasics();
 ?>
 	<br>
 <?php

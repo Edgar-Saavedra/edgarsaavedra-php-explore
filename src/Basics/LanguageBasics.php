@@ -211,6 +211,10 @@ EOT;
 				}
 		}
 
+		static public function working_with_strings()
+		{
+
+		}
 
 
 	}
